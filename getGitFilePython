@@ -1,5 +1,6 @@
 def main(args):
     # args contains input payload (JSON)
+    
     # You can access headers via args.get("__ow_headers") if HTTP trigger
 
     event_type = args.get("__ow_headers", {}).get("X-GitHub-Event", "unknown")
