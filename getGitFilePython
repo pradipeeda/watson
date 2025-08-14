@@ -1,5 +1,5 @@
 def main(args):
-    # args contains input payload (JSON)
+    # args contains input payload (JSON) - version 3
     
     # You can access headers via args.get("__ow_headers") if HTTP trigger
 
